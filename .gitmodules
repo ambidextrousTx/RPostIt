@@ -1,0 +1,3 @@
+[submodule "rpostit"]
+	path = rpostit
+	url = ssh://5430184150044609930005fe@rpostit-zion00.rhcloud.com/~/git/rpostit.git/
