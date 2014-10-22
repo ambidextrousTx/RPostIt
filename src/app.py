@@ -3,7 +3,7 @@ The main app
 '''
 
 
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -13,12 +13,11 @@ def index():
 
 @app.route('/add', methods=['POST'])
 def add_reminder():
-    return 'Use this method to POST new reminders to the database'
+    return render_template('input.html')
 
 @app.route('/show', methods=['GET'])
 def show_reminders():
-    return 'Use this method to GET all the reminders in the database' \
-            'in a sticky format'
+    return render_template('notes.html')
 
 
 if __name__ == '__main__':
