@@ -11,7 +11,7 @@ app = Flask(__name__)
 def index():
     return 'A work in progress, check back later'
 
-@app.route('/add', methods=['POST'])
+@app.route('/add', methods=['GET'])
 def add_reminder():
     return render_template('input.html')
 
