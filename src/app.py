@@ -16,12 +16,12 @@ def add_reminder():
     return render_template('input.html')
 
 @app.route('/show', methods=['GET'])
-def show_reminders():
-    return render_template('notes.html')
+def show_reminders(reminder):
+    return render_template('notes.html', reminder=reminder)
 
 @app.route('/justadded', methods=['POST'])
 def add_entry():
-    return request.form['postitnote']
+    return show_reminders(request.form['postitnote'])
 
 
 if __name__ == '__main__':
