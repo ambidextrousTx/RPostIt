@@ -13,9 +13,9 @@
         <div class='fancy-desc'>
             Enter a note that you would like displayed as a PostIt note
         </div>
-        <textarea autofocus rows=5 cols=100 form='the-only-form'></textarea>
+        <textarea autofocus rows=5 cols=100 name='postitnote' form='the-only-form'></textarea>
 
-        <form action="" id='the-only-form'>
+        <form action="{{ url_for ('add_entry') }}" method='post' id='the-only-form'>
             <button type='reset' value='Reset'>Reset</button>
             <button type='submit' value='Submit'>Submit</button>
         </form>

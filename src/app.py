@@ -3,7 +3,7 @@ The main app
 '''
 
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -18,6 +18,10 @@ def add_reminder():
 @app.route('/show', methods=['GET'])
 def show_reminders():
     return render_template('notes.html')
+
+@app.route('/justadded', methods=['POST'])
+def add_entry():
+    return request.form['postitnote']
 
 
 if __name__ == '__main__':
