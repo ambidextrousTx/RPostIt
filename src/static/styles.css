@@ -1,25 +1,27 @@
+body {
+    text-align: center;
+    font-family: Verdana;
+
+}
+
 .fancy-header {
     color: #3333ee;
     font-size: 2em;
-    text-align: center;
 }
 
 .fancy-desc {
     color: #333399;
     font-size: 1.5em;
-    text-align: center;
 }
 
 .reminders {
     color: #1122aa;
     background-color: #8888cc;
     font-size: 1.2em;
-    text-align: center;
 
 }
 
 .input-field {
-    text-align: center;
 
 }
 
@@ -31,7 +33,6 @@
 
     background-color: #5555BB;
     text-transform: uppercase;
-    font-family: Verdana;
     border: 1px solid #CCCCEE;
 
     cursor: pointer;
