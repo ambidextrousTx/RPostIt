@@ -29,7 +29,7 @@
     line-height: 1.20em;
     padding: 6px 20px;
 
-    background-color: #A69520;
+    background-color: #5555BB;
     text-transform: uppercase;
     font-family: Verdana;
     border: 1px solid #282727;
@@ -46,10 +46,10 @@
     -moz-box-shadow: 1px 3px 5px #555;
     -webkit-box-shadow: 1px 3px 5px #555;
 
-    background: linear-gradient(top center, #FFF089, #A69520);
-    background: -o-linear-gradient(#FFF089, #A69520);
-    background: -moz-linear-gradient(#FFF089, #A69520);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF089), to(#A69520));
+    background: linear-gradient(top center, #9999DD, #5555BB);
+    background: -o-linear-gradient(#9999DD, #5555BB);
+    background: -moz-linear-gradient(#9999DD, #5555BB);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#9999DD), to(#5555BB));
 }
 
 input.button {
@@ -58,8 +58,8 @@ input.button {
 
 .button:active, .button:focus {
     color: #000;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#A69520), to(#FFF089));
-    background: -moz-linear-gradient(#A69520, #FFF089);
-    background: -o-linear-gradient(#A69520, #FFF089);
-    background: linear-gradient(left center, #A69520, #FFF089);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#5555BB), to(#9999DD));
+    background: -moz-linear-gradient(#5555BB, #9999DD);
+    background: -o-linear-gradient(#5555BB, #9999DD);
+    background: linear-gradient(left center, #5555BB, #9999DD);
 }
