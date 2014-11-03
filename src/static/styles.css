@@ -32,10 +32,10 @@
     background-color: #5555BB;
     text-transform: uppercase;
     font-family: Verdana;
-    border: 1px solid #282727;
+    border: 1px solid #CCCCEE;
 
     cursor: pointer;
-    color: #000;
+    color: #CCCCEE;
     text-decoration: none;
 
     border-radius: 12px;
