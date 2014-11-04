@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return 'A work in progress, check back later'
+    return 'Go to /add or /show instead'
 
 @app.route('/add', methods=['GET'])
 def add_reminder():
