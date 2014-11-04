@@ -1,23 +1,23 @@
 body {
     text-align: center;
     font-family: Verdana;
-    background-color: #00B299;
+    background-color: #B2B2B2;
 
 }
 
 .fancy-header {
-    color: #B27D60;
+    color: #FFEA8C;
     font-size: 2em;
 }
 
 .fancy-desc {
-    color: #00FFF4;
+    color: #FFEEA2;
     font-size: 1.5em;
 }
 
 .reminders {
-    color: #00B2AB;
-    background-color: #B27D60;
+    color: #222;
+    background-color: #8C8EFF;
     font-size: 1.2em;
     font-weight: bold;
     padding: 6px 20px;
@@ -38,26 +38,26 @@ body {
     line-height: 1.20em;
     padding: 6px 20px;
 
-    background-color: #FF6919;
+    background-color: #FFEEA2;
     text-transform: uppercase;
-    border: 1px solid #CCCCEE;
+    border: 1px solid #222;
 
     cursor: pointer;
-    color: #CCCCEE;
+    color: #B2B2B2;
     text-decoration: none;
 
     border-radius: 12px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
 
-    box-shadow: 1px 3px 5px #555;
-    -moz-box-shadow: 1px 3px 5px #555;
-    -webkit-box-shadow: 1px 3px 5px #555;
+    box-shadow: 1px 3px 5px #FFEEA2;
+    -moz-box-shadow: 1px 3px 5px #FFEEA2;
+    -webkit-box-shadow: 1px 3px 5px #FFEEA2;
 
-    background: linear-gradient(top center, #FF5800, #FF6919);
-    background: -o-linear-gradient(#FF5800, #FF6919);
-    background: -moz-linear-gradient(#FF5800, #FF6919);
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FF5800), to(#FF6919));
+    background: linear-gradient(top center, #FFEA8C, #FFEEA2);
+    background: -o-linear-gradient(#FFEA8C, #FFEEA2);
+    background: -moz-linear-gradient(#FFEA8C, #FFEEA2);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFEA8C), to(#FFEEA2));
 }
 
 input.button {
@@ -66,8 +66,8 @@ input.button {
 
 .button:active, .button:focus {
     color: #000;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FF6919), to(#FF5800));
-    background: -moz-linear-gradient(#FF6919, #FF5800);
-    background: -o-linear-gradient(#FF6919, #FF5800);
-    background: linear-gradient(left center, #FF6919, #FF5800);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#FFEEA2), to(#FFEA8C));
+    background: -moz-linear-gradient(#FFEEA2, #FFEA8C);
+    background: -o-linear-gradient(#FFEEA2, #FFEA8C);
+    background: linear-gradient(left center, #FFEEA2, #FFEA8C);
 }
